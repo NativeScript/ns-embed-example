@@ -1,19 +1,7 @@
 <ActionBar title="My App"> </ActionBar>
 
-<GridLayout rows="auto,auto,*">
-  <Button text="Toggle Symbol" (tap)="toggleImage()" class="my-4"></Button>
-  @if (showImage) {
-  <Image
-    row="1"
-    src="sys://square.and.arrow.down.on.square.fill"
-    class="w-[100] h-[100]"
-    [iosSymbolEffect]="symbolBounceEffect"
-    [iosSymbolScale]="scale"
-    tintColor="red"
-  ></Image>
-  }
-
-  <ListView row="2" [items]="items">
+<GridLayout>
+  <ListView [items]="items">
     <ng-template let-item="item">
       <GridLayout [nsRouterLink]="['/item', item.id]" class="p-4">
         <Label [text]="item.name" class="align-middle leading-4"></Label>

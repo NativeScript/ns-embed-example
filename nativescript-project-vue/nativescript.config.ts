@@ -1,7 +1,7 @@
 import { NativeScriptConfig } from '@nativescript/core';
 
 export default {
-  id: 'org.nativescript.nativescriptprojectreact',
+  id: 'org.nativescript.nativescriptprojectvue',
   appPath: 'src',
   appResourcesPath: '../tools/App_Resources',
   android: {

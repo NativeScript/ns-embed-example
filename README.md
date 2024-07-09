@@ -21,7 +21,7 @@ A Kotlin Android project which embeds NativeScript screens.
 See `nativescript-project-`*/`nativescript.config.ts` for the host project path settings the `embed` command uses.
 
 ```bash
-cd nativescript-project-ng
+cd nativescript-project-{ng|react|solid|svelte|vue}
 
 ns embed ios
 

@@ -1,6 +1,0 @@
-ext {
-  compileSdkVersion = 34
-  buildToolsVersion = "34"
-  minSdkVersion = 24
-  targetSdkVersion = 34
-}

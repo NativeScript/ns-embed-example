@@ -1,8 +1,8 @@
 import { NativeScriptConfig } from '@nativescript/core';
 
 export default {
-  id: 'org.nativescript.nativescriptprojectreact',
-  appPath: 'src',
+  id: 'org.nativescript.nativescriptprojectsvelte',
+  appPath: 'app',
   appResourcesPath: '../tools/App_Resources',
   android: {
     v8Flags: '--expose_gc',
