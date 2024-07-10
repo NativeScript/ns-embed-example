@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "@nativescript/android": "alpha",
-    "@nativescript/ios": "next",
+    "@nativescript/ios": "~8.8.1",
     "@nativescript/tailwind": "~2.1.0",
     "@nativescript/types": "~8.7.0",
     "@nativescript/webpack": "next",

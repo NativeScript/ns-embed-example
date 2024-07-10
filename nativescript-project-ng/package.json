@@ -22,7 +22,7 @@
     "@angular-devkit/build-angular": "~18.0.0",
     "@angular/compiler-cli": "~18.0.0",
     "@nativescript/android": "alpha",
-    "@nativescript/ios": "next",
+    "@nativescript/ios": "~8.8.1",
     "@nativescript/tailwind": "^2.1.0",
     "@nativescript/types-android": "~8.7.0",
     "@nativescript/types-ios": "~8.8.0-alpha.0",

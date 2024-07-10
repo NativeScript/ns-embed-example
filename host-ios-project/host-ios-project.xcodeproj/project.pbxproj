@@ -13,6 +13,7 @@
 		AA65716B2C3473EF00B0E3BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA65716A2C3473EF00B0E3BA /* Preview Assets.xcassets */; };
 		AA6571752C34741600B0E3BA /* NativeScriptPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6571742C34741600B0E3BA /* NativeScriptPresenter.swift */; };
 		AA65717A2C34744100B0E3BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6571792C34744100B0E3BA /* ViewController.swift */; };
+		AAFEBC112C3F221C0086A759 /* NativeScriptSDK in Frameworks */ = {isa = PBXBuildFile; productRef = AAFEBC102C3F221C0086A759 /* NativeScriptSDK */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAFEBC112C3F221C0086A759 /* NativeScriptSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +94,7 @@
 			);
 			name = "host-ios-project";
 			packageProductDependencies = (
+				AAFEBC102C3F221C0086A759 /* NativeScriptSDK */,
 			);
 			productName = "host-ios-project";
 			productReference = AA6571602C3473EE00B0E3BA /* host-ios-project.app */;
@@ -123,6 +126,7 @@
 			);
 			mainGroup = AA6571572C3473EE00B0E3BA;
 			packageReferences = (
+				AAFEBC0F2C3F221C0086A759 /* XCRemoteSwiftPackageReference "ios-spm" */,
 			);
 			productRefGroup = AA6571612C3473EE00B0E3BA /* Products */;
 			projectDirPath = "";
@@ -362,6 +366,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AAFEBC0F2C3F221C0086A759 /* XCRemoteSwiftPackageReference "ios-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/NativeScript/ios-spm";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.8.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AAFEBC102C3F221C0086A759 /* NativeScriptSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AAFEBC0F2C3F221C0086A759 /* XCRemoteSwiftPackageReference "ios-spm" */;
+			productName = NativeScriptSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AA6571582C3473EE00B0E3BA /* Project object */;
 }

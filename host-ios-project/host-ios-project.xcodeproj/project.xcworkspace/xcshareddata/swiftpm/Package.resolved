@@ -1,0 +1,15 @@
+{
+  "originHash" : "4baef059df80113110220a389f2ebaddf888a99050b44483538d2aa0421bab5b",
+  "pins" : [
+    {
+      "identity" : "ios-spm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/NativeScript/ios-spm",
+      "state" : {
+        "revision" : "c1e75f9ebedd1a9c57a859b454fe663a2003c75b",
+        "version" : "8.8.1"
+      }
+    }
+  ],
+  "version" : 3
+}

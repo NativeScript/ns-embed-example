@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "@nativescript/android": "alpha",
-    "@nativescript/ios": "next",
+    "@nativescript/ios": "~8.8.1",
     "@nativescript/types": "~8.7.0",
     "@nativescript/webpack": "next",
     "@types/react": "npm:types-react-without-jsx-intrinsics@^18.0.17",

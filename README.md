@@ -40,7 +40,9 @@ Now open each respective host project, `host-ios-project` in Xcode and `host-and
 
 ### For iOS:
 
-1. Modify `ViewController.swift` to specify the name of the embedded project:
+1. Xcode File > 'Add Package Dependencies...' and type in this URL https://github.com/NativeScript/ios-spm to add the NativeScriptSDK.
+   
+2. Modify `ViewController.swift` to specify the name of the embedded project:
 
 ```swift
 @IBAction func openMyNativeScriptApp(_ sender: Any) {
@@ -54,7 +56,7 @@ Now open each respective host project, `host-ios-project` in Xcode and `host-and
 }
 ```
 
-2. Copy Metadata from `nativescript-project-*/platforms/ios/build/Debug-iphonesimulator/metadata-arm64.bin` to `host-ios-project/nativescriptproject*`
+3. Copy Metadata from `nativescript-project-*/platforms/ios/build/Debug-iphonesimulator/metadata-arm64.bin` to `host-ios-project/nativescriptproject*`
 
 Now build and run.
 

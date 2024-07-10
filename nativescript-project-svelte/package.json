@@ -10,7 +10,7 @@
   },
   "devDependencies": {
     "@nativescript/android": "alpha",
-    "@nativescript/ios": "next",
+    "@nativescript/ios": "~8.8.1",
     "@nativescript/types": "~8.7.0",
     "@nativescript/webpack": "next",
     "svelte": "~4.2.2",
