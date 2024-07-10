@@ -28,6 +28,12 @@ class ViewController: UIViewController {
   }
   
   @IBAction func openMyNativeScriptApp(_ sender: Any) {
+    // modify the appFolder to point to your NativeScript app
+    // ng: nativescriptprojectng/app
+    // react: nativescriptprojectreact/app
+    // solid: nativescriptprojectsolid/app
+    // svelte: nativescriptprojectsvelte/app
+    // vue: nativescriptprojectvue/app
     self.setupNativeScript(appFolder: "nativescriptprojectng/app")
   }
   

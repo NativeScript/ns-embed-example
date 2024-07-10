@@ -13,7 +13,7 @@
     "@nativescript/android": "alpha",
     "@nativescript/ios": "next",
     "@nativescript/types": "~8.7.0",
-    "@nativescript/webpack": "~5.0.21",
+    "@nativescript/webpack": "next",
     "@types/react": "npm:types-react-without-jsx-intrinsics@^18.0.17",
     "typescript": "~5.4.0"
   },

@@ -12,7 +12,7 @@
     "@nativescript/android": "alpha",
     "@nativescript/ios": "next",
     "@nativescript/types": "~8.7.0",
-    "@nativescript/webpack": "~5.0.21",
+    "@nativescript/webpack": "next",
     "svelte": "~4.2.2",
     "svelte-loader": "^3.1.9",
     "svelte-native-preprocessor": "^1.0.0",
